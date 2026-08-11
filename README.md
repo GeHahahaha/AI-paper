@@ -8,6 +8,7 @@
 2. [征文大纲](docs/planning/征文大纲.md)：当前唯一有效的正文结构。
 3. [AI 全流程工作流设计](docs/design/AI全流程工作流设计.md)：Pi + MCP 总体技术方案。
 4. [Harness 材料评估](docs/research/Harness材料评估与吸收建议.md)：机构投票案例的吸收与取舍。
+5. [征文正文](docs/report/从单点辅助到可信协同_金融科技AI研发工作流设计与实践.md)：按大纲形成的 Markdown 参赛稿。
 
 更完整的文件职责、事实边界和维护规则见 [AGENTS.md](AGENTS.md)。
 
@@ -25,13 +26,15 @@ docs/
   planning/      活动解析、征文思路、正文大纲
   design/        AI 全流程工作流技术设计
   research/      案例筛选和材料评估
+  report/        Markdown 格式参赛正文
 materials/
   competition/   活动原始 PDF
   internal/      内部报告和案例原始材料
 diagrams/
-  current/       当前正文图 1—图 4 的工程源文件，文件名仍沿用图 5—图 8
+  current/       当前正文图 1—图 4 的 Draw.io 工程源文件
+  rendered/      供 Markdown 正文引用的高清 PNG
   reference/     早期或参考图
 archive/         已弃用方案
 ```
 
-当前尚未形成正式征文正文。下一阶段应补齐两个案例的准确数量、平台运行指标和脱敏证据，再基于大纲起草正文。
+当前已形成 Markdown 格式正文初稿和四张配套工程图。提交前仍需补齐可公开的平台运行指标、两个案例的准确统计口径和脱敏证据，并完成内部业务与合规审核。
