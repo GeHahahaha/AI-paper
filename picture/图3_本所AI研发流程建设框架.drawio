@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-08-06T10:30:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="ai-rd-local-approach" name="本所AI研发流程建设框架">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="700" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="本所AI研发流程建设框架" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=22;fontStyle=1;fontColor=#233B53;" vertex="1" parent="1">
+          <mxGeometry x="55" y="25" width="520" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="依托既有研发流程、平台和能力基础，构建资源统筹、流程协同、统一治理、资产复用、安全控制和成效评价体系" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#5F6F7F;" vertex="1" parent="1">
+          <mxGeometry x="55" y="65" width="1450" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="node-a" value="&lt;b&gt;现有基础与工作进展&lt;/b&gt;&lt;br&gt;既有研发流程和平台体系&lt;br&gt;内网模型与智能编码工具&lt;br&gt;任务执行工具试点推广&lt;br&gt;知识、Skill、Rule、权限与评价研究基础" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F7F9;strokeColor=#233B53;fontFamily=Microsoft YaHei;fontColor=#233B53;fontSize=12;align=center;verticalAlign=middle;spacing=6;lineSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="35" y="180" width="200" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="node-b" value="&lt;b&gt;1. 研发能力资产化&lt;/b&gt;&lt;br&gt;知识、Skill、Rule&lt;br&gt;流程模板和评价任务&lt;br&gt;统一管理、持续更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF3EC;strokeColor=#4A6B5A;fontFamily=Microsoft YaHei;fontColor=#2B4156;fontSize=12;align=center;verticalAlign=middle;spacing=6;lineSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="200" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="node-c" value="&lt;b&gt;2. 资源统筹与统一接入治理&lt;/b&gt;&lt;br&gt;模型、算力、工具和平台统筹&lt;br&gt;身份、权限、日志和审计统一" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7EEF7;strokeColor=#3B5B8C;fontFamily=Microsoft YaHei;fontColor=#2B4156;fontSize=12;align=center;verticalAlign=middle;spacing=6;lineSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="485" y="180" width="200" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="node-d" value="&lt;b&gt;3. 风险分级与真实任务验证&lt;/b&gt;&lt;br&gt;明确人机责任和安全边界&lt;br&gt;验证结果进入成效评估体系" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FDF3E7;strokeColor=#B07A3E;fontFamily=Microsoft YaHei;fontColor=#2B4156;fontSize=12;align=center;verticalAlign=middle;spacing=6;lineSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="710" y="180" width="200" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="node-e" value="&lt;b&gt;4. 全流程协同能力扩展&lt;/b&gt;&lt;br&gt;连接需求、设计、开发、测试&lt;br&gt;发布准备和运行反馈" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F0FA;strokeColor=#7A5A8C;fontFamily=Microsoft YaHei;fontColor=#2B4156;fontSize=12;align=center;verticalAlign=middle;spacing=6;lineSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="935" y="180" width="200" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="node-g" value="&lt;b&gt;5. 真实任务成效评估体系&lt;/b&gt;&lt;br&gt;贯穿建设全过程，非串行阶段&lt;br&gt;支撑优化与退出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF7E6;strokeColor=#B08A3E;fontFamily=Microsoft YaHei;fontColor=#2B4156;fontSize=12;align=center;verticalAlign=middle;spacing=6;lineSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="180" width="200" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="node-f" value="&lt;b&gt;目标状态&lt;/b&gt;&lt;br&gt;全流程协同、统一治理、能力复用&lt;br&gt;风险可控、评价闭环" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#233B53;strokeColor=#233B53;fontFamily=Microsoft YaHei;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;spacing=6;lineSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="180" width="200" height="170" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-ab" style="endArrow=block;endFill=1;strokeWidth=2;strokeColor=#667788;html=1;" edge="1" parent="1" source="node-a" target="node-b">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-bc" style="endArrow=block;endFill=1;strokeWidth=2;strokeColor=#667788;html=1;" edge="1" parent="1" source="node-b" target="node-c">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-cd" style="endArrow=block;endFill=1;strokeWidth=2;strokeColor=#667788;html=1;" edge="1" parent="1" source="node-c" target="node-d">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-de" style="endArrow=block;endFill=1;strokeWidth=2;strokeColor=#667788;html=1;" edge="1" parent="1" source="node-d" target="node-e">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-eg" style="endArrow=block;endFill=1;strokeWidth=2;strokeColor=#667788;html=1;" edge="1" parent="1" source="node-e" target="node-g">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-gf" style="endArrow=block;endFill=1;strokeWidth=2;strokeColor=#667788;html=1;" edge="1" parent="1" source="node-g" target="node-f">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="note" value="成效评估体系以真实脱敏任务为基础，建立统一基线和对照机制，贯穿能力资产化、统一治理、风险验证和全流程扩展全过程" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#5F6F7F;" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="800" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer" value="以既有研发体系为基础，形成流程协同、统一治理、能力复用、风险可控和评价闭环" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#5F6F7F;" vertex="1" parent="1">
+          <mxGeometry x="430" y="570" width="740" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

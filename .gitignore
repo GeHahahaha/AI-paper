@@ -1,0 +1,7 @@
+# 本地阅读、渲染和分析过程文件
+tmp/
+
+# Windows / Office 临时文件
+Thumbs.db
+~$*.docx
+~$*.pptx
