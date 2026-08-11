@@ -1,6 +1,9 @@
 # 本地阅读、渲染和分析过程文件
 tmp/
 
+# macOS Finder 元数据
+.DS_Store
+
 # Windows / Office 临时文件
 Thumbs.db
 ~$*.docx
