@@ -58,7 +58,7 @@
         <mxCell id="rr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#557D91;strokeWidth=1.4;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=0.887;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="runtime-bus" target="r5"><mxGeometry relative="1" as="geometry"/></mxCell>
 
         <mxCell id="output-label" value="任务输出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6F526F;strokeColor=#6F526F;fontFamily=Microsoft YaHei;fontColor=#FFFFFF;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="45" y="920" width="175" height="85" as="geometry"/></mxCell>
-        <mxCell id="output" value="获批交付包　｜　测试与审查证据　｜　运行与审计记录　｜　改进后的知识、Skill、Rule、流程模板和评价任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F6F0F6;strokeColor=#9A789A;fontFamily=Microsoft YaHei;fontColor=#584058;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="240" y="920" width="1910" height="85" as="geometry"/></mxCell>
+        <mxCell id="output" value="获批交付包　｜　测试与审查证据　｜　运行与审计记录　｜　改进后的知识、工作流技能、规则、流程模板和评价任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F6F0F6;strokeColor=#9A789A;fontFamily=Microsoft YaHei;fontColor=#584058;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="240" y="920" width="1910" height="85" as="geometry"/></mxCell>
       </root>
     </mxGraphModel>
   </diagram>
