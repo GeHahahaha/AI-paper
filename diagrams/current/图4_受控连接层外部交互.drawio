@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="Electron" agent="Codex">
+  <diagram id="controlled-connection" name="受控连接层外部交互">
+    <mxGraphModel dx="2200" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="受控连接层外部交互" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=32;fontStyle=1;fontColor=#243447;" vertex="1" parent="1">
+          <mxGeometry x="50" y="28" width="2100" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="以时序方式展示智能体请求如何经过访问控制、受控执行、外部系统和审计回写" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#243447;" vertex="1" parent="1">
+          <mxGeometry x="52" y="78" width="2096" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-lane" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F7F9FC;strokeColor=#AFC4DE;strokeWidth=2;container=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="115" width="360" height="675" as="geometry" />
+        </mxCell>
+        <mxCell id="access-lane" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F7F9FC;strokeColor=#AFC4DE;strokeWidth=2;container=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="115" width="360" height="675" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-lane" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F7F9FC;strokeColor=#AFC4DE;strokeWidth=2;container=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="115" width="360" height="675" as="geometry" />
+        </mxCell>
+        <mxCell id="external-lane" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F7F9FC;strokeColor=#AFC4DE;strokeWidth=2;container=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="115" width="480" height="675" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-lane" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F7F9FC;strokeColor=#AFC4DE;strokeWidth=2;container=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="115" width="360" height="675" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-head" value="&lt;b&gt;调用发起方&lt;/b&gt;&lt;br&gt;主控智能体 / 专业智能体" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E83B4;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="300" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AFC4DE;strokeColor=#AFC4DE;" vertex="1" parent="1">
+          <mxGeometry x="228" y="202" width="4" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="access-head" value="&lt;b&gt;访问控制&lt;/b&gt;&lt;br&gt;工具发现 · 身份权限 · 参数校验" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E83B4;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="480" y="130" width="300" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="access-line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AFC4DE;strokeColor=#AFC4DE;" vertex="1" parent="1">
+          <mxGeometry x="628" y="202" width="4" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-head" value="&lt;b&gt;受控连接器&lt;/b&gt;&lt;br&gt;凭据 · 超时 · 资源与网络边界" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E83B4;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="880" y="130" width="300" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AFC4DE;strokeColor=#AFC4DE;" vertex="1" parent="1">
+          <mxGeometry x="1028" y="202" width="4" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="external-head" value="&lt;b&gt;外部研发系统&lt;/b&gt;&lt;br&gt;项目、代码、构建、质量、发布、运维" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E83B4;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="130" width="420" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="external-line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AFC4DE;strokeColor=#AFC4DE;" vertex="1" parent="1">
+          <mxGeometry x="1488" y="202" width="4" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-head" value="&lt;b&gt;审计与回写&lt;/b&gt;&lt;br&gt;证据定位 · 调用留痕 · 状态同步" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E83B4;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="130" width="300" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AFC4DE;strokeColor=#AFC4DE;" vertex="1" parent="1">
+          <mxGeometry x="1948" y="202" width="4" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-detail" value="&lt;b&gt;结构化调用请求&lt;/b&gt;&lt;br&gt;任务 · 工具意图 · 参数&lt;br&gt;所需权限 · 预期结果&lt;br&gt;证据要求与完成条件" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E83B4;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="100" y="235" width="260" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="access-detail" value="&lt;b&gt;访问校验&lt;/b&gt;&lt;br&gt;工具版本、能力与适用范围&lt;br&gt;任务身份、责任人、最小权限、限时租约&lt;br&gt;数据等级、脱敏、参数与读写白名单" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E83B4;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="500" y="235" width="260" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-detail" value="&lt;b&gt;受控执行&lt;/b&gt;&lt;br&gt;获取短期凭据并限定有效期&lt;br&gt;实施超时、资源与网络限制&lt;br&gt;普通写入按白名单执行" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E83B4;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="900" y="235" width="260" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="approval" value="高风险写入｜人工审批" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#5E83B4;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontColor=#5E83B4;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="525" y="388" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="external-detail" value="&lt;b&gt;六类研发系统端口&lt;/b&gt;&lt;br&gt;项目与知识　｜　代码仓库&lt;br&gt;构建与测试　｜　质量与安全&lt;br&gt;发布与制品　｜　运维与观测" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E83B4;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="235" width="360" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-detail" value="&lt;b&gt;结果审计&lt;/b&gt;&lt;br&gt;结果标准化与完整性校验&lt;br&gt;测试、制品、扫描与审批证据定位&lt;br&gt;身份、工具、参数、结果与状态留痕" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E83B4;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="235" width="260" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-p1" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="429" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="access-p1" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="629" y="429" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-p1" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="429" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="external-p1" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="429" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-p1" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1949" y="429" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-p2" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="479" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="access-p2" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="629" y="479" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-p2" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="479" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="external-p2" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="479" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-p2" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1949" y="479" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-p3" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="529" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="access-p3" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="629" y="529" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-p3" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="529" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="external-p3" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="529" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-p3" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1949" y="529" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-p4" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="579" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="access-p4" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="629" y="579" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-p4" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="579" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="external-p4" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="579" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-p4" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1949" y="579" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-p5" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="629" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="access-p5" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="629" y="629" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-p5" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="629" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="external-p5" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="629" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-p5" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1949" y="629" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-p6" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="679" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="access-p6" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="629" y="679" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-p6" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="679" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="external-p6" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="679" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-p6" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1949" y="679" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="caller-p7" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="729" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="access-p7" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="629" y="729" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="connector-p7" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="729" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="external-p7" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="729" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-p7" value="" style="ellipse;html=1;fillColor=none;strokeColor=none;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="1949" y="729" width="2" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="seq1" style="html=1;strokeColor=#5E83B4;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#243447;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="caller-p1" target="access-p1" value="1　结构化调用请求">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seq2" style="html=1;strokeColor=#5E83B4;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#243447;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="access-p2" target="connector-p2" value="2　授权令牌与受控参数">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seq3" style="html=1;strokeColor=#5E83B4;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#243447;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="connector-p3" target="external-p3" value="3　在边界内执行受控读写">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seq4" style="html=1;strokeColor=#5E83B4;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=8 6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#243447;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="external-p4" target="connector-p4" value="4　原始结果、状态与证据位置">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seq5" style="html=1;strokeColor=#5E83B4;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#243447;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="connector-p5" target="audit-p5" value="5　标准化结果与执行证据">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seq6" style="html=1;strokeColor=#5E83B4;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=8 6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#243447;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="audit-p6" target="access-p6" value="6　审计记录与状态回写">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seq7" style="html=1;strokeColor=#5E83B4;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;dashed=1;dashPattern=8 6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#243447;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="access-p7" target="caller-p7" value="7　标准结果、证据与审批状态">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

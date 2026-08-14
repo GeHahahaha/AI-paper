@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="Electron" agent="Codex">
+  <diagram id="ai-sdlc-overview" name="AI研发生命周期">
+    <mxGraphModel dx="2500" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="880" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="AI研发生命周期" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=32;fontStyle=1;fontColor=#243447;" vertex="1" parent="1">
+          <mxGeometry x="50" y="28" width="2400" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="传统研发责任体系保持稳定，智能执行、受控连接与治理能力贯穿任务受理至运行反馈" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#243447;" vertex="1" parent="1">
+          <mxGeometry x="52" y="78" width="2396" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="gate0" value="目标、范围与风险确认" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#003894;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontColor=#003894;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="132" width="270" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase0" value="&lt;b&gt;0  任务受理&lt;/b&gt;&lt;br&gt;&lt;br&gt;明确目标、范围与优先级&lt;br&gt;完成风险分类与任务契约&lt;br&gt;确认责任人和审批策略&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px;color:#243447&quot;&gt;产物：任务单 / 风险等级&lt;/font&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="270" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="accent0" value="" style="rounded=1;arcSize=8;fillColor=#003894;strokeColor=#003894;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gate1" value="需求及验收标准确认" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#003894;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontColor=#003894;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="354" y="132" width="270" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1" value="&lt;b&gt;1  需求分析&lt;/b&gt;&lt;br&gt;&lt;br&gt;获取业务与项目上下文&lt;br&gt;澄清需求、约束与验收条件&lt;br&gt;标记来源、版本与信息缺口&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px;color:#243447&quot;&gt;产物：需求说明 / 验收标准&lt;/font&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="270" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="accent1" value="" style="rounded=1;arcSize=8;fillColor=#003894;strokeColor=#003894;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gate2" value="高风险方案与架构确认" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#003894;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontColor=#003894;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="658" y="132" width="270" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2" value="&lt;b&gt;2  方案设计&lt;/b&gt;&lt;br&gt;&lt;br&gt;分析变更影响与技术风险&lt;br&gt;设计架构、接口与数据方案&lt;br&gt;形成步骤、依赖与实施计划&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px;color:#243447&quot;&gt;产物：设计方案 / 实施计划&lt;/font&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="658" y="180" width="270" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="accent2" value="" style="rounded=1;arcSize=8;fillColor=#003894;strokeColor=#003894;" vertex="1" parent="1">
+          <mxGeometry x="658" y="180" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3" value="&lt;b&gt;3  开发实施&lt;/b&gt;&lt;br&gt;&lt;br&gt;拆解任务并编排专业智能体&lt;br&gt;在受控分支与沙箱中实施&lt;br&gt;同步代码、配置、文档和决策&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px;color:#243447&quot;&gt;产物：代码 / 配置 / 文档&lt;/font&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="962" y="180" width="270" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="accent3" value="" style="rounded=1;arcSize=8;fillColor=#003894;strokeColor=#003894;" vertex="1" parent="1">
+          <mxGeometry x="962" y="180" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4" value="&lt;b&gt;4  测试验证&lt;/b&gt;&lt;br&gt;&lt;br&gt;执行单元、集成与安全测试&lt;br&gt;失败自动归因、修复与复测&lt;br&gt;沉淀可复现结果与质量证据&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px;color:#243447&quot;&gt;产物：测试报告 / 证据包&lt;/font&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1266" y="180" width="270" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="accent4" value="" style="rounded=1;arcSize=8;fillColor=#003894;strokeColor=#003894;" vertex="1" parent="1">
+          <mxGeometry x="1266" y="180" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gate5" value="质量验收与整改确认" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#003894;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontColor=#003894;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="132" width="270" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5" value="&lt;b&gt;5  审查验收&lt;/b&gt;&lt;br&gt;&lt;br&gt;提交触发并定时全量代码审核&lt;br&gt;独立审查正确性、安全与影响&lt;br&gt;完成整改闭环与质量验收&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px;color:#243447&quot;&gt;产物：审查结论 / 验收记录&lt;/font&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="180" width="270" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="accent5" value="" style="rounded=1;arcSize=8;fillColor=#003894;strokeColor=#003894;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="180" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gate6" value="合并与生产发布审批" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#003894;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontColor=#003894;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1874" y="132" width="270" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6" value="&lt;b&gt;6  发布交付&lt;/b&gt;&lt;br&gt;&lt;br&gt;生成合并、变更与回滚材料&lt;br&gt;完成交付、合并与发布审批&lt;br&gt;审批后触发现有发布流水线&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px;color:#243447&quot;&gt;产物：交付包 / 发布记录&lt;/font&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1874" y="180" width="270" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="accent6" value="" style="rounded=1;arcSize=8;fillColor=#003894;strokeColor=#003894;" vertex="1" parent="1">
+          <mxGeometry x="1874" y="180" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gate7" value="重大异常与回滚决策" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#003894;strokeWidth=1.5;fontFamily=Microsoft YaHei;fontColor=#003894;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2178" y="132" width="270" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase7" value="&lt;b&gt;7  运行反馈&lt;/b&gt;&lt;br&gt;&lt;br&gt;观测日志、指标、链路与告警&lt;br&gt;处理异常、工单与运行反馈&lt;br&gt;复盘并沉淀知识、规则和技能&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px;color:#243447&quot;&gt;产物：运行证据 / 改进任务&lt;/font&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=left;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="2178" y="180" width="270" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="accent7" value="" style="rounded=1;arcSize=8;fillColor=#003894;strokeColor=#003894;" vertex="1" parent="1">
+          <mxGeometry x="2178" y="180" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="flow01" style="html=1;strokeColor=#243447;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="phase0" target="phase1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow12" style="html=1;strokeColor=#243447;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="phase1" target="phase2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow23" style="html=1;strokeColor=#243447;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="phase2" target="phase3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow34" style="html=1;strokeColor=#243447;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="phase3" target="phase4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow45" style="html=1;strokeColor=#243447;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="phase4" target="phase5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow56" style="html=1;strokeColor=#243447;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="phase5" target="phase6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow67" style="html=1;strokeColor=#243447;strokeWidth=2.3;endArrow=block;endFill=1;endSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="phase6" target="phase7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pi-label" value="智能执行中枢" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#003894;strokeColor=#003894;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#FFFFFF;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="250" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="pi" value="&lt;b&gt;任务智能执行链&lt;/b&gt;　理解目标 → 构建上下文 → 规划与智能体编排 → 工具执行 → 确定性校验 → 定向返工 → 证据汇总&lt;br&gt;&lt;br&gt;阶段之间以结构化工件交接；完成条件由实际变更、测试、独立审查与人工责任状态共同证明" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="2128" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="mcp-label" value="受控连接层" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#007CC3;strokeColor=#007CC3;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#FFFFFF;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="50" y="548" width="250" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="mcp" value="&lt;b&gt;研发系统连接&lt;/b&gt;　项目与知识 ｜ 代码仓库 ｜ 构建与测试 ｜ 质量与安全 ｜ 发布与制品 ｜ 日志、指标、告警与工单&lt;br&gt;&lt;br&gt;统一实施工具发现、参数校验、最小权限、凭据托管、读写白名单、调用审计与状态回写" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="548" width="2128" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-label" value="贯穿式治理" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#243447;strokeColor=#243447;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#FFFFFF;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="50" y="656" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-1" value="&lt;b&gt;数据边界&lt;/b&gt;&lt;br&gt;&lt;br&gt;分类分级 · 脱敏&lt;br&gt;上下文最小化" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="320" y="656" width="412" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-2" value="&lt;b&gt;权限与执行边界&lt;/b&gt;&lt;br&gt;&lt;br&gt;最小权限 · 限时授权&lt;br&gt;沙箱 · 白名单" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="749" y="656" width="412" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-3" value="&lt;b&gt;质量与责任边界&lt;/b&gt;&lt;br&gt;&lt;br&gt;验收阈值 · 独立审查&lt;br&gt;人工审批" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1178" y="656" width="412" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-4" value="&lt;b&gt;可观测与审计&lt;/b&gt;&lt;br&gt;&lt;br&gt;调用 · 产物 · 证据&lt;br&gt;决策全程留痕" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1607" y="656" width="412" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-5" value="&lt;b&gt;能力运营与评价&lt;/b&gt;&lt;br&gt;&lt;br&gt;真实任务评价 · 复盘&lt;br&gt;推广或退出" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F6FC;strokeColor=#D9E3F2;strokeWidth=2;fontFamily=Microsoft YaHei;fontColor=#243447;fontSize=18;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="2036" y="656" width="412" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="feedback" value="运行问题与新需求进入下一轮任务" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#243447;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="808" width="568" height="36" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
